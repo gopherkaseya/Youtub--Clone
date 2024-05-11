@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#video-section {
+    flex: 2;
+    overflow: hidden;
+}
+
+#video-player {
+    width: 100%;
+    height: 60%;
+}
+
+#video-info {
+    padding: 20px;
+    background-color: #f1f1f1;
+    height: 40%;
+}
+
+#related-videos {
+    flex: 1;
+    background-color: #f1f1f1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+#related-videos div{
+    padding: 0px 40px;
+}
+
+.video-thumbnail {
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.video-card {
+    max-width: 850px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.video-info-card {
+    padding: 20px;
+}
+
+.like-dislike-card {
+    display: flex;
+    align-items: center;
+}
+
+.icon-card {
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.count-card {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.container{
+    margin-top: 50px;
+}

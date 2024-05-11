@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+}
+
+.box {
+    width: 30%;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+}

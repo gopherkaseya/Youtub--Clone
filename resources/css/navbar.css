@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.search{
+    @apply rounded-l-3xl h-11 w-96 pl-3 items-center justify-center border-b-gray-400 border-solid border-2
+}
+.button{
+    @apply bg-white rounded-r-3xl
+}

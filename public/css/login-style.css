@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+button {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: none;
+    color: #AF4C4CFF;
+    border: solid 2px #B80F0FFF;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b80f0f;
+    color: #fff;
+}
+
+img {
+    width: 20px; /* Ajustez la taille de l'image selon vos besoins */
+    height: 20px;
+    margin-right: 8px; /* Espace entre l'image et le texte */
+}
